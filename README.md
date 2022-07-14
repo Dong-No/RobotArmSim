@@ -1,8 +1,11 @@
 # RobotArmSim
 
-**block model (.stl) for gazebo
+**block model (.stl) is for gazebo
 
-**There are three packages in my_gazebo_ros.zip file.
+**There are three ros packages**
+  * 1.
+  * 2.
+  * 3.
   After downloded into your /catkin_ws/src, do catkin_make(under /catkin_ws)
   
   
