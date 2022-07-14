@@ -8,10 +8,8 @@
   
   sudo apt-get install python-pip
   pip install --upgrade setuptools
-  (pip install --upgrade pip)
-  
-  
-  
+  (pip install --upgrade pip)(skip the WARNING)
   
   pip install getkey
   
+  sudo apt-get install ros-noetic-ros-control ros-noetic-ros-controllers
