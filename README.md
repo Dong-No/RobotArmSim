@@ -28,3 +28,7 @@
   gedit ~/.ignition/fuel/config.yaml <br />
   (change "api.ignitionfuel.org" with "fuel.ignitionrobotics.org") <br />
   
+  
+  mkdir ~/.gazebo/models <br />
+  cp -r ~/catkin_ws/src/block_for_arm ~/.gazebo/models <br />
+  
