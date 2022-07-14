@@ -25,3 +25,6 @@
   sudo apt-get install ros-melodic-joint-state-publisher-gui <br />
   (for roslaunch myrobot_description myrobot_rviz.launch) <br />
   
+  gedit ~/.ignition/fuel/config.yaml <br />
+  (change "api.ignitionfuel.org" with "fuel.ignitionrobotics.org") <br />
+  
