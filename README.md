@@ -13,3 +13,6 @@
   pip install getkey
   
   sudo apt-get install ros-melodic-ros-control ros-melodic-ros-controllers
+  (for roslaunch myrobot_gazebo myrobot.launch)
+  sudo apt-get install ros-melodic-joint-state-publisher-gui
+  (for roslaunch myrobot_description myrobot_rviz.launch)
