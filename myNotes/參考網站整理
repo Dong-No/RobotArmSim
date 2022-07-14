@@ -1,0 +1,18 @@
+1.官網教學Gazebo rrbot tutorials:(I heavily depend on this web)
+
+https://classic.gazebosim.org/tutorials?tut=ros_urdf
+
+
+2.中文教學：
+
+https://medium.com/%E6%88%91%E7%9A%84learning-note
+
+
+3.其他機器人教學：（做類似的事）
+
+https://automaticaddison.com/how-to-build-a-simulated-robot-arm-using-ros/
+
+
+4.urdf,xacro:
+
+http://fugjo16.blogspot.com/2017/06/ros-urdf.html

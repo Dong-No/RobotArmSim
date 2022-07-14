@@ -1,0 +1,7 @@
+要先下載python套件(沒裝過的電腦）：
+~$ pip install getkey
+
+
+使用說明:
+https://pypi.org/project/getkey/
+https://github.com/kcsaff/getkey

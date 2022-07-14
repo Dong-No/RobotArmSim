@@ -1,0 +1,17 @@
+1.製作模擬模型時,盡量用簡單的形狀去近似實際的桿件（box,cylinder,...)，兩joints間距要跟實體手臂一樣
+
+2.urdf (Unified Robot Description Format) - 統一機器人描述格式， 是一種特殊的XML文件格式，用來描述機器人的模型。xacro （XML檔編輯程式的功能（巨集,可以作運算,宣告變數,macro可以寫類似C的副程式)
+http://fugjo16.blogspot.com/2017/06/ros-urdf.html
+
+3.製作模型的過程中,先用rviz檢查模型對齊的怎麼樣（如rrbot教學）,從link0慢慢往上建立
+
+4.In urdf, mesh放在<visual>內看爽的就好了
+<collision>用簡單的box下去算
+
+5.mesh(.stl或.dae）在畫cad的時候，把桿件的原點放在（跟上一軸接合的joint處）,在寫urde的時候才不會發瘋
+
+6.相鄰的兩link(共用一joint的）,Gazebo不會去算碰撞<collision>,不管selfcollide是true或false
+
+7.不會轉動的那軸(x或y或z）,把轉動慣量設成0,避免Gazebo模擬裝忙,容易出事
+
+

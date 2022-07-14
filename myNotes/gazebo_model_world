@@ -1,0 +1,19 @@
+預設model跟.world的地方
+
+path1: ~/.gazebo/models
+從網路下載models,或自製也可以存到這裡,再到gazebo裡面insert model
+.world檔內的<uri>是從這裡讀model進來的
+
+
+path2: /usr/share/gazebo-9
+從網路下載models可存到此,再到gazebo裡面insert model
+
+
+
+
+
+也可存到任意路徑,再到gazebo裡面insert model上的Add Path加入路徑
+
+
+官網釋出的所有models:
+https://github.com/osrf/gazebo_models

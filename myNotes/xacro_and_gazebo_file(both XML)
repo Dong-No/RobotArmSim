@@ -1,0 +1,5 @@
+有xacro（或urdf)就可以用rviz看你的機器人模型了
+如果要另外用gazebo仿真（慣性,重力,摩擦,阻尼...)
+須另外加<gazebo> tag在myrobot.xacro(XML檔內）
+用“Gazebo的參數（設定顏色,mu1,mu2,damping...等等）
+這裡是另外寫一個.gazebo(同樣是XML檔）,然後在myrobot.xacro內include myrobot.gazebo

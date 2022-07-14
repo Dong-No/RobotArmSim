@@ -1,0 +1,15 @@
+因為urdf只認link和joint
+在畫圖程式(inventor)把桿件的joint（要和上一桿連接的地方）
+對齊cad檔的原點,並與xyz軸對齊
+
+inventor輸出轉成.stl(注意mm和m,ROS吃m)
+再到ubuntu的blender把.stl轉成.dae
+塞進去urdf(xacro)檔內的
+<visual><visual/>
+<collision><collision/>
+<inertia><inertia/>
+之中
+
+
+
+
