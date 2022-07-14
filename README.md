@@ -12,4 +12,4 @@
   
   pip install getkey
   
-  sudo apt-get install ros-noetic-ros-control ros-noetic-ros-controllers
+  sudo apt-get install ros-melodic-ros-control ros-melodic-ros-controllers
