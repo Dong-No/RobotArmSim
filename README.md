@@ -14,14 +14,14 @@
   '''~/catkin_ws$ catkin_make'''
   
   
-  sudo apt-get install python-pip
-  pip install --upgrade setuptools
-  (pip install --upgrade pip)(skip the WARNING)
+  sudo apt-get install python-pip <br />
+  pip install --upgrade setuptools <br />
+  (pip install --upgrade pip)(skip the WARNING) <br />
   
-  pip install getkey
+  pip install getkey <br />
   
-  sudo apt-get install ros-melodic-ros-control ros-melodic-ros-controllers
-  (for roslaunch myrobot_gazebo myrobot.launch)
-  sudo apt-get install ros-melodic-joint-state-publisher-gui
-  (for roslaunch myrobot_description myrobot_rviz.launch)
+  sudo apt-get install ros-melodic-ros-control ros-melodic-ros-controllers <br />
+  (for roslaunch myrobot_gazebo myrobot.launch) <br />
+  sudo apt-get install ros-melodic-joint-state-publisher-gui <br />
+  (for roslaunch myrobot_description myrobot_rviz.launch) <br />
   
