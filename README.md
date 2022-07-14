@@ -32,3 +32,7 @@
   mkdir ~/.gazebo/models <br />
   cp -r ~/catkin_ws/src/block_for_arm ~/.gazebo/models <br />
   
+  [spawn_gazebo_model-4] process has died <br />
+  (refer to:<br /> 
+  https://answers.gazebosim.org//question/26940/unable-to-launch-gazebo-simulation-showing-error-spawn_gazebo_model-4-process-has-died/ <br />
+  https://answers.ros.org/question/214712/gazebo-controller-spawner-warning/ <br /> 
