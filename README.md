@@ -38,7 +38,9 @@
   
   * Gazebo:<br />
   [spawn_gazebo_model-4] process has died <br />
-  (cause by rosdep permissio)<br />
-  (if you can't run '''$ rosdep update''' without sudo,<br />
-  run '''$ sudo rosdep fix-permissions''')<br />
+  
+   (cause by rosdep permission)<br />
+  
+   (if you can't run '''$ rosdep update''' without sudo,<br />
+   run '''$ sudo rosdep fix-permissions''')<br />
   
