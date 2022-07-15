@@ -1,11 +1,11 @@
 # RobotArmSim
 
-**myNotes is some reference------（optional)
+* **myNotes is some reference**------（optional)
 
-**block_for_arm is model (.stl) for gazebo------(needed)
+* **block_for_arm is model (.stl) for gazebo**------(needed)
 
 
-**There are three ros packages**
+* **There are three ros packages**
   * 1.myrobot_control------(needed)
   * 2.myrobot_gazebo------(needed)
   * 3.my_robot_description------(needed)
@@ -32,7 +32,13 @@
   mkdir ~/.gazebo/models <br />
   cp -r ~/catkin_ws/src/block_for_arm ~/.gazebo/models <br />
   
+  
+* **ERROR HANDLING** <br />
+  
+  
+  * Gazebo:<br />
   [spawn_gazebo_model-4] process has died <br />
-  (refer to:<br /> 
-  https://answers.gazebosim.org//question/26940/unable-to-launch-gazebo-simulation-showing-error-spawn_gazebo_model-4-process-has-died/ <br />
-  https://answers.ros.org/question/214712/gazebo-controller-spawner-warning/ <br /> 
+  (cause by rosdep permissio)<br />
+  (if you can't run '''$ rosdep update''' without sudo,<br />
+  run '''$ sudo rosdep fix-permissions''')<br />
+  
