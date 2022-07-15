@@ -31,8 +31,6 @@
    mkdir ~/.gazebo/models
    cp -r ~/catkin_ws/src/block_for_arm ~/.gazebo/models
    ```
-
-  
   
 * **ERROR HANDLING** <br />
   
@@ -44,4 +42,7 @@
   
    (if you can't run $ `rosdep update` without sudo,<br />
    run $ `sudo rosdep fix-permissions`)<br />
+   
+* **VS CODE INSTALLATION** <br />
+https://jetsonhacks.com/2020/11/28/visual-studio-code/
   
