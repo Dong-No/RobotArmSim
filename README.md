@@ -11,26 +11,26 @@
   * 3.my_robot_description------(needed)
   
   After downloded the needed files into your /catkin_ws/src,<br />
-  '''~/catkin_ws$ catkin_make'''
+  ~/catkin_ws$ ```catkin_make```
   
   
-  sudo apt-get install python-pip <br />
-  pip install --upgrade setuptools <br />
+  `sudo apt-get install python-pip` <br />
+  `pip install --upgrade setuptools` <br />
   (pip install --upgrade pip)(skip the WARNING) <br />
   
-  pip install getkey <br />
+  `pip install getkey` <br />
   
-  sudo apt-get install ros-melodic-ros-control ros-melodic-ros-controllers <br />
+  `sudo apt-get install ros-melodic-ros-control ros-melodic-ros-controllers` <br />
   (for roslaunch myrobot_gazebo myrobot.launch) <br />
-  sudo apt-get install ros-melodic-joint-state-publisher-gui <br />
+  `sudo apt-get install ros-melodic-joint-state-publisher-gui` <br />
   (for roslaunch myrobot_description myrobot_rviz.launch) <br />
   
-  gedit ~/.ignition/fuel/config.yaml <br />
+  `gedit ~/.ignition/fuel/config.yaml` <br />
   (change "api.ignitionfuel.org" with "fuel.ignitionrobotics.org") <br />
   
   
-  mkdir ~/.gazebo/models <br />
-  cp -r ~/catkin_ws/src/block_for_arm ~/.gazebo/models <br />
+  `mkdir ~/.gazebo/models` <br />
+  `cp -r ~/catkin_ws/src/block_for_arm ~/.gazebo/models` <br />
   
   
 * **ERROR HANDLING** <br />
@@ -41,6 +41,6 @@
   
    (cause by rosdep permission)<br />
   
-   (if you can't run '''$ rosdep update''' without sudo,<br />
-   run '''$ sudo rosdep fix-permissions''')<br />
+   (if you can't run $ `rosdep update` without sudo,<br />
+   run $ `sudo rosdep fix-permissions`)<br />
   
