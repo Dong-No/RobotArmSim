@@ -48,8 +48,8 @@ https://jetsonhacks.com/2020/11/28/visual-studio-code/
 
 
 * **STM32 USB Port Connection enable** <br />
-$ sudo chmod 777 /dev/ttyACMx
+ $sudo chmod 777 /dev/ttyACMx
 
 * **enable python program to run** <br />
-* $sudo chmod +x your_program_name.py
+ $sudo chmod +x your_program_name.py
   
